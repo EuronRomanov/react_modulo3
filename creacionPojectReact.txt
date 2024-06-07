@@ -1,0 +1,16 @@
+npx create-expo-app MiprimerProyecto
+despues seleccionar yes
+cd MiprimerProyecto
+npx expo start
+expo init MiprimerProyecto //iniciarlocrear proyecto
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npm install @rneui/themed @rneui/base
+npm install react-native-vector-icons
+
+npm install @react-navigation/drawer
+npm install  react-native-reanimated
+npm install  react-native-safe-area-context
+npm install react-native-gesture-handler 
+
+npm install @react-navigation/bottom-tabs
