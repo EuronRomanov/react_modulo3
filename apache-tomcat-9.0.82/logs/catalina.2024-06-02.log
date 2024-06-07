@@ -1,0 +1,64 @@
+02-Jun-2024 19:16:32.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+02-Jun-2024 19:16:32.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+02-Jun-2024 19:16:32.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+02-Jun-2024 19:16:32.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Jun-2024 19:16:32.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.7.10
+02-Jun-2024 19:16:32.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Jun-2024 19:16:32.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+02-Jun-2024 19:16:32.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.3+7-LTS-152
+02-Jun-2024 19:16:32.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jun-2024 19:16:32.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82
+02-Jun-2024 19:16:32.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82
+02-Jun-2024 19:16:32.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Jun-2024 19:16:32.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Jun-2024 19:16:32.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Jun-2024 19:16:32.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Jun-2024 19:16:32.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Jun-2024 19:16:32.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/conf/logging.properties
+02-Jun-2024 19:16:32.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jun-2024 19:16:32.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jun-2024 19:16:32.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jun-2024 19:16:32.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Jun-2024 19:16:32.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jun-2024 19:16:32.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82
+02-Jun-2024 19:16:32.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82
+02-Jun-2024 19:16:32.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/temp
+02-Jun-2024 19:16:32.800 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jeanpierrearmijos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Jun-2024 19:16:33.765 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9091"]
+02-Jun-2024 19:16:33.874 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1831] milliseconds
+02-Jun-2024 19:16:33.919 WARNING [main] java.util.ArrayList.forEach Name = ConexionInventario Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+02-Jun-2024 19:16:33.920 WARNING [main] java.util.ArrayList.forEach Name = ConexionInventario Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+02-Jun-2024 19:16:33.921 INFO [main] java.util.ArrayList.forEach Name = ConexionInventario Ignoring unknown property: value of "jdbc/ConexionInventario" for "global" property
+02-Jun-2024 19:16:33.972 WARNING [main] java.util.ArrayList.forEach Name = ConexionPG Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+02-Jun-2024 19:16:33.973 WARNING [main] java.util.ArrayList.forEach Name = ConexionPG Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+02-Jun-2024 19:16:33.973 INFO [main] java.util.ArrayList.forEach Name = ConexionPG Ignoring unknown property: value of "jdbc/ConexionPG" for "global" property
+02-Jun-2024 19:16:34.031 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jun-2024 19:16:34.032 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+02-Jun-2024 19:16:34.071 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/ejemploweb.war]
+02-Jun-2024 19:16:37.480 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:39.057 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/ejemploweb.war] has finished in [4,984] ms
+02-Jun-2024 19:16:39.060 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/inventarios-1.0.0.war]
+02-Jun-2024 19:16:40.764 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:40.823 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/inventarios-1.0.0.war] has finished in [1,763] ms
+02-Jun-2024 19:16:40.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/docs]
+02-Jun-2024 19:16:41.145 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:41.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/docs] has finished in [323] ms
+02-Jun-2024 19:16:41.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/manager]
+02-Jun-2024 19:16:41.315 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:41.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/manager] has finished in [184] ms
+02-Jun-2024 19:16:41.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/examples]
+02-Jun-2024 19:16:41.787 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:41.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/examples] has finished in [482] ms
+02-Jun-2024 19:16:41.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/ROOT]
+02-Jun-2024 19:16:41.965 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:41.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/ROOT] has finished in [150] ms
+02-Jun-2024 19:16:41.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/host-manager]
+02-Jun-2024 19:16:42.109 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2024 19:16:42.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeanpierrearmijos/Documents/apache-tomcat-9.0.82/webapps/host-manager] has finished in [136] ms
+02-Jun-2024 19:16:42.124 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9091"]
+02-Jun-2024 19:16:42.148 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8271] milliseconds
+02-Jun-2024 19:17:52.361 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jun-2024 19:17:52.363 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9091"]
+02-Jun-2024 19:17:52.370 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jun-2024 19:17:52.513 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9091"]
+02-Jun-2024 19:17:52.529 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9091"]
